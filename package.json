@@ -1,0 +1,23 @@
+{
+  "name": "servidor-ingredientes",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "export MONGO_DATABASE_URL=mongodb://localhost:27017; export MONGO_DATABASE_NAME=testeDb; mocha --require test/hooks.js --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mocha": "^10.7.0",
+    "mongodb": "^6.8.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "supertest": "^7.0.0"
+  }
+}
